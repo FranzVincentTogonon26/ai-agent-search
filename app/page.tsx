@@ -25,7 +25,7 @@ export default function Home() {
             aria-label="🤖 AI Search"
             defaultChecked
           />
-          <div className="tab-content bg-base-100 `p-6 min-h-[94vh]">
+          <div className="tab-content bg-base-100 p-6 min-h-[94vh]">
             <AISearch />
           </div>
 
