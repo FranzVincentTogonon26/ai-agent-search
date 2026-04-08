@@ -13,7 +13,7 @@ export default function Home() {
             className="tab"
             aria-label="🌐 Native Search"
           />
-          <div className="tab-content bg-base-100 border-base-300 p-6 min-h-[94vh]">
+          <div className="tab-content bg-base-100 p-6 min-h-[94vh]">
             <SimpleSearch />
           </div>
 
@@ -25,7 +25,7 @@ export default function Home() {
             aria-label="🤖 AI Search"
             defaultChecked
           />
-          <div className="tab-content bg-base-100 border-base-300 p-6 min-h-[94vh]">
+          <div className="tab-content bg-base-100 `p-6 min-h-[94vh]">
             <AISearch />
           </div>
 
